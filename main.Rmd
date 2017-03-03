@@ -39,3 +39,6 @@ output:
 ```{r child="./slides/how-does-R-work/slide.Rmd"}
 ```
 
+```{r child="./slides/rstudio/slide.Rmd"}
+```
+
