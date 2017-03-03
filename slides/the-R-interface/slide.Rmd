@@ -1,0 +1,25 @@
+## The R Interface {.the-R-interface}
+
+`r htmltools::includeCSS("./slide.css")`
+
+`r htmltools::div(
+    htmltools::div(
+        id="the-R-interface-left",
+        htmltools::img(src = knitr::image_uri("../../img/screen-R-start.gif"))
+    ),
+    htmltools::div(
+        id="the-R-interface-right",
+        htmltools::div(
+            id = "the-R-interface-text",
+            htmltools::p(id = "the-R-interface-text-1", "> R uses a ..."),
+            htmltools::p(
+            id = "the-R-interface-text-2",
+            "> command line interface",
+            htmltools::span(
+                id = "the-R-interface-text-cursor",
+                "|"
+                )
+            )
+        )
+    )
+)`

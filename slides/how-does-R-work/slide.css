@@ -1,0 +1,57 @@
+.how-does-R-work .note li {
+    color: #000000;
+}
+
+.how-does-R-work > div {
+    max-width: 980px;
+    height: 500px;
+    margin: 0 0 0 0;
+}
+
+#how-does-R-work-left {
+    width: 55%;
+    height: 500px;
+    float: left;
+}
+
+#how-does-R-work-screen {
+    max-width: 100%;
+}
+
+#how-does-R-work-right {
+    width: 45%;
+    height: 500px;
+    float: right;
+}
+
+#how-does-R-work-text {
+    padding-left: 20px;
+}
+
+#how-does-R-work-right p,
+#how-does-R-work-right a {
+    font-size: 14pt;
+}
+
+#how-does-R-work-quote {
+    font-style: italic;
+    color: #FFA500;
+}
+
+#how-does-R-work-author {
+    font-style: normal;
+    font-weight: bold;
+    padding-left: 20px;
+    color: #FFA500;
+}
+
+#how-does-R-work-hadley {
+    max-width: 50%;
+    margin-left: 100px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+#how-does-R-work-link {
+    margin-left: 100px;
+}

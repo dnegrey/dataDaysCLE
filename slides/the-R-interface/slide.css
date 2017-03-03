@@ -1,0 +1,78 @@
+.the-R-interface .note li {
+    color: #000000;
+}
+
+.the-R-interface > div {
+    max-width: 980px;
+    height: 500px;
+    margin: 0 0 0 0;
+}
+
+#the-R-interface-left {
+    width: 55%;
+    height: 500px;
+    float: left;
+}
+
+.the-R-interface img {
+    max-width: 100%;
+}
+
+#the-R-interface-right {
+    width: 45%;
+    height: 500px;
+    float: right;
+}
+
+#the-R-interface-text {
+    padding-left: 20px;
+}
+
+#the-R-interface-text-1,
+#the-R-interface-text-2 {
+    font-size: 20pt;
+    color: lime;
+    font-family: "Courier New";
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 5s steps(60, end);
+}
+
+#the-R-interface-text-1 {
+    margin-bottom: 0;
+}
+
+#the-R-interface-text-2 {
+    animation: type2 5s steps(60, end);
+}
+
+#the-R-interface-text-cursor {
+    animation: blink 1s infinite;
+}
+
+slide:not(.current) #the-R-interface-text-1,
+slide:not(.current) #the-R-interface-text-2,
+slide:not(.current) #the-R-interface-text-cursor {
+    animation-play-state: paused;
+}
+
+slide.current #the-R-interface-text-1,
+slide.current #the-R-interface-text-2,
+slide.current #the-R-interface-text-cursor {
+    animation-play-state: running;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
