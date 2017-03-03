@@ -1,0 +1,1 @@
+`r htmltools::img(src = knitr::image_uri("../../img/data-days.jpg"))`

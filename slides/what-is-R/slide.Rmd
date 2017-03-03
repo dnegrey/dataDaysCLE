@@ -1,0 +1,32 @@
+---
+title: "What is R?"
+subtitle: "Brief Introduction"
+author: "Dan Negrey"
+output:
+    ioslides_presentation:
+        widescreen: TRUE
+        transition: slower
+        fig_width: 10
+        css: 
+         - ../../css/body-slide.css
+         - ../../css/code-chunks.css
+         - ../../css/code-inline.css
+         - ../../css/plots.css
+         - ../../css/slide-background.css
+         - ../../css/slide-notes.css
+         - ../../css/title-slide.css
+        includes: 
+            before_body: ../../html/no-title.html
+---
+
+## What is R? {.what-is-R}
+
+`r htmltools::includeCSS("./slide.css")`
+
+```{r child="content.Rmd"}
+```
+
+<div class="note">
+```{r child="notes.Rmd"}
+```
+</div>
