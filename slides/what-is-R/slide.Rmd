@@ -1,32 +1,19 @@
----
-title: "What is R?"
-subtitle: "Brief Introduction"
-author: "Dan Negrey"
-output:
-    ioslides_presentation:
-        widescreen: TRUE
-        transition: slower
-        fig_width: 10
-        css: 
-         - ../../css/body-slide.css
-         - ../../css/code-chunks.css
-         - ../../css/code-inline.css
-         - ../../css/plots.css
-         - ../../css/slide-background.css
-         - ../../css/slide-notes.css
-         - ../../css/title-slide.css
-        includes: 
-            before_body: ../../html/no-title.html
----
-
 ## What is R? {.what-is-R}
 
 `r htmltools::includeCSS("./slide.css")`
 
-```{r child="content.Rmd"}
-```
+`r htmltools::img(src = knitr::image_uri("../../img/R-logo.png"))`
 
-<div class="note">
-```{r child="notes.Rmd"}
-```
+<div>
+  <p>An 
+    <span class="default-gold" style="font-size: 32pt;">OPEN-SOURCE </span>
+    <span>programming </span>
+    <span class="default-gold" style="font-size: 32pt;">LANGUAGE </span>
+    <span>and free software </span>
+    <span class="default-gold" style="font-size: 32pt;">ENVIRONMENT </span>
+    <span>for </span>
+    <span class="default-gold" style="font-size: 32pt;">STATISTICAL COMPUTING </span>
+    <span>and </span>
+    <span class="default-gold" style="font-size: 32pt;">GRAPHICS</span>
+  </p>
 </div>

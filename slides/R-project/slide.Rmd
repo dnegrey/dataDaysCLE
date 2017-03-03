@@ -1,0 +1,7 @@
+## Learn more at [https://www.r-project.org/](https://www.r-project.org/) {.R-project}
+
+`r htmltools::includeCSS("./slide.css")`
+
+<div id = "R-project-main">
+<iframe src="https://www.r-project.org/"></iframe>
+</div>

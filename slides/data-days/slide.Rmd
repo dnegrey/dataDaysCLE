@@ -1,27 +1,5 @@
----
-title: "Data Days CLE"
-subtitle: "Welcome"
-author: "Dan Negrey"
-output:
-    ioslides_presentation:
-        widescreen: TRUE
-        transition: slower
-        fig_width: 10
-        css: 
-         - ../../css/body-slide.css
-         - ../../css/code-chunks.css
-         - ../../css/code-inline.css
-         - ../../css/plots.css
-         - ../../css/slide-background.css
-         - ../../css/slide-notes.css
-         - ../../css/title-slide.css
-        includes: 
-            before_body: ../../html/no-title.html
----
-
 ## Data Days {.data-days}
 
 `r htmltools::includeCSS("./slide.css")`
 
-```{r child="content.Rmd"}
-```
+`r htmltools::img(src = knitr::image_uri("../../img/data-days.jpg"))`

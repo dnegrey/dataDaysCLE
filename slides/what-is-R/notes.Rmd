@@ -1,5 +1,0 @@
-* Open source GNU project (Free Software Foundation)
-* Similar to S (Bell Laboratories; John Chambers)
-* Robert Gentleman and Ross Ihaka (University of Auckland)
-* Highly extensible through the use of *packages*
-* Data mining, analytics and interactive visualization

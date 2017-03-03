@@ -27,4 +27,9 @@ output:
 ```{r child="./slides/what-is-R/slide.Rmd"}
 ```
 
+```{r child="./slides/R-project/slide.Rmd"}
+```
+
+```{r child="./slides/download-R/slide.Rmd"}
+```
 
