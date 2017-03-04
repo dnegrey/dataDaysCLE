@@ -1,0 +1,39 @@
+## Package Functions {.package-functions}
+
+`r htmltools::includeCSS("./slide.css")`
+
+<div class = "build">
+
+<div id = "package-functions-left">
+
+<p class = "package-functions-emy">Don't reinvent the wheel!</p>
+
+<p class = "package-functions-emb">R is highly extensible through packages</p>
+
+Many amazing packages come installed with R. See the **Packages** pane in RStudio or run the following command in the R console: `installed.packages()`
+
+To access the functions (*and other objects*) from a package, first load the package using the `library()` function.
+
+</div>
+
+<div id = "package-functions-right">
+
+```{r, eval=FALSE}
+qplot(x = Petal.Width, y = Petal.Length, data = iris)
+```
+
+<pre><code id = "package-functions-error">Error: could not find function "qplot"</code></pre>
+
+```{r, fig.width=5, fig.height=3.5}
+library(ggplot2)
+qplot(x = Petal.Width, y = Petal.Length, data = iris)
+```
+
+</div>
+
+<div id = "package-functions-left-bottom">>
+<p class = "package-functions-left-dblcolon">\* Can also use the double-colon operator, for example: <span><code id = "package-functions-left-dblcolon">ggplot2::qplot()</code></span></p>
+
+</div>
+
+</div>

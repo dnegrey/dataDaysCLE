@@ -1,0 +1,35 @@
+.help .note li {
+    color: #000000;
+}
+
+#help-left {
+    width: 45%;
+    height: 500px;
+    float: left;
+}
+
+.help-left-text {
+    font-size: 18pt;
+}
+
+#help-left pre,
+#help-left .pretty-print {
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.help-left-link {
+    color: #2A7CDF;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+#help-right {
+    width: 53%;
+    height: 500px;
+    float: right;
+}
+
+#help-right img {
+    max-width: 100%;
+}

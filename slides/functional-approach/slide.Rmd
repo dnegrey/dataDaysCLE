@@ -1,0 +1,21 @@
+## Functional Approach {.functional-approach}
+
+`r htmltools::includeCSS("./slide.css")`
+
+<div id = "functional-approach-main" class = "build">
+<p id = "functional-approach-subtitle">R is a <span>functional programming language</span>. Every operation is a function call.</p>
+<div id = "functional-approach-code-chunk">
+```{r, results='hold', comment=NA}
+1 + 2
+`+`(1, 2)
+```
+</div>
+<div id = "functional-approach-quote">
+<p>"To understand computations in R, two slogans are helpful:</p>
+<ul style = "padding-left: 50px;">
+<li>Everything that exists is an object</li>
+<li>Everything that happens is a function call"</li>
+</ul>
+<p>\- John Chambers</p>
+</div>
+</div>

@@ -42,6 +42,21 @@ output:
 ```{r child="./slides/rstudio/slide.Rmd"}
 ```
 
+```{r child="./slides/functional-approach/slide.Rmd"}
+```
+
+```{r child="./slides/package-functions/slide.Rmd"}
+```
+
+```{r child="./slides/help/slide.Rmd"}
+```
+
+```{r child="./slides/package-overview/slide.Rmd"}
+```
+
+```{r child="./slides/cran/slide.Rmd"}
+```
+
 ```{r child="./slides/packages-dplyr/slide.Rmd"}
 ```
 

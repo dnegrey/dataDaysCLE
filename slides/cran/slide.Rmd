@@ -1,0 +1,38 @@
+## CRAN {.cran}
+
+`r htmltools::includeCSS("./slide.css")`
+
+<div id = "cran-top">
+<p id = "cran-def">The <span class = "cran-em">C</span>omprehensive <span class = "cran-em">R</span> <span class = "cran-em">A</span>rchive <span class = "cran-em">N</span>etwork</p>
+
+<div class = "build">
+<div>
+<p id = "cran-exp">A collection of sites ("mirrors") that carry identical material, consisting of the R distribution(s), the contributed extensions, documentation for R and binaries.</p>
+
+(i.e. main repository for R and packages)
+
+<p>Master site: <span><a href="https://CRAN.R-project.org/">https://CRAN.R-project.org/</a></span></p>
+</div>
+</div>
+</div>
+
+<div id = "cran-bottom">
+<div id = "cran-bottom-left" class = "build">
+<div>
+Download the latest version of R
+
+Over 7,800 packages available
+
+Install packages from CRAN:
+
+```{r, eval=FALSE}
+install.packages("dplyr")
+```
+</div>
+</div>
+<div id = "cran-bottom-right">
+`r htmltools::img(
+    src = knitr::image_uri("../../img/cran.png")
+)`
+</div>
+</div>
