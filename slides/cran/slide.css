@@ -1,0 +1,61 @@
+.cran .note li {
+    color: #000000;
+}
+
+#cran-top {
+    width: 100%;
+    height: 200px;
+}
+
+#cran-def {
+    color: #2A7CDF;
+}
+
+#cran-exp {
+    font-style: italic;
+}
+
+.cran-em {
+    color: #FFA500;
+    font-weight: bold;
+}
+
+#cran-bottom {
+    width: 100%;
+    height: 300px;
+}
+
+#cran-bottom-left {
+    width: 48%;
+    height: 100%;
+    float: left;
+    margin-top: 60px;
+}
+
+#cran-bottom-left p {
+    color: #FFA500;
+    font-size: 18pt;
+    padding-left: 20px;
+}
+
+#cran-bottom-left pre {
+    width: 70%;
+    margin-left: 20px;
+}
+
+#cran-bottom-left .pretty-print,
+#cran-bottom-left pre {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+#cran-bottom-right {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+#cran-bottom-right img {
+    width: 300px;
+    max-width: 100%;
+}

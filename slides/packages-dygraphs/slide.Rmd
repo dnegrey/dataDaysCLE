@@ -1,0 +1,37 @@
+## Essential Packages: dygraphs {.packages-dygraphs}
+
+`r htmltools::includeCSS("./slide.css")`
+
+<div id = "packages-dygraphs-left">
+<div id = "packages-dygraphs-left-dygraph">
+```{r, echo=FALSE}
+library(dygraphs)
+lungDeaths <- cbind(mdeaths, fdeaths)
+dygraph(lungDeaths) %>% 
+    dyLegend(width = 300,
+             show = "always") %>%
+    dyRangeSelector(dateWindow = c("1974-01-01", "1979-12-31"))
+rm(lungDeaths)
+detach("package:dygraphs", unload=TRUE)
+```
+</div>
+</div>
+
+<div id = "packages-dygraphs-right">
+<p class = "packages-dygraphs-em">Interactive HTML Time Series Plots</p>
+
+```{r, eval=FALSE}
+library(dygraphs)
+lungDeaths <- cbind(mdeaths, fdeaths)
+dygraph(lungDeaths) %>% 
+    dyLegend(width = 300,
+             show = "always") %>%
+    dyRangeSelector(dateWindow = c("1974-01-01",
+                                   "1979-12-31"))
+```
+
+<a href="http://rstudio.github.io/dygraphs/">http://rstudio.github.io/dygraphs/</a>
+
+<a id = "packages-dygraphs-logo" href="http://dygraphs.com/">dygraphs</a>
+
+</div>

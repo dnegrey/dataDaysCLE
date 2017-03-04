@@ -1,0 +1,55 @@
+## Essential Packages: leaflet {.packages-leaflet}
+
+`r htmltools::includeCSS("./slide.css")`
+
+<div id = "packages-leaflet-left">
+```{r, echo=FALSE}
+library(leaflet)
+leaflet() %>% 
+    addTiles() %>% 
+    setView(lng = -81.6925,
+            lat = 41.50132,
+            zoom = 17) %>% 
+    addMarkers(lng = -81.695174,
+               lat = 41.501313,
+               popup = paste0("<b>HIMSS Innovation Center</b>",
+                              "<br>4th ﬂoor of the Global Center for Health Innovation",
+                              "<br>1 St Clair Ave NE",
+                              "<br>Cleveland, OH 44114"))
+```
+```{r, echo=FALSE}
+detach("package:leaflet", unload=TRUE)
+```
+</div>
+
+<div id = "packages-leaflet-right">
+<p class = "packages-leaflet-em">Interactive HTML Maps</p>
+
+```{r, eval=FALSE}
+library(leaflet)
+leaflet() %>% 
+    addTiles() %>% 
+    setView(lng = -81.6925,
+            lat = 41.50132,
+            zoom = 17) %>% 
+    addMarkers(lng = -81.695174,
+               lat = 41.501313,
+               popup = paste0("<b>HIMSS Innovation Center</b>",
+                              "<br>4th ﬂoor of the Global Center for Health Innovation",
+                              "<br>1 St Clair Ave NE",
+                              "<br>Cleveland, OH 44114"))
+```
+
+<a href="https://rstudio.github.io/leaflet/">https://rstudio.github.io/leaflet/</a>
+
+`r htmltools::div(
+    id = "packages-leaflet-logo",
+    htmltools::a(
+        href = "http://leafletjs.com/",
+        htmltools::img(
+            src = knitr::image_uri("../../img/logo-leaflet.png")
+        )
+    )
+)`
+
+</div>

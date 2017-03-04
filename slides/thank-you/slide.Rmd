@@ -1,0 +1,16 @@
+## Thank You! {.thank-you}
+
+`r htmltools::includeCSS("./slide.css")`
+
+`r htmltools::div(
+    id = "thank-you-main",
+    htmltools::a(
+        href = "https://github.com/dnegrey",
+        id = "thank-you-me",
+        htmltools::img(src = knitr::image_uri("../../img/dnegrey.jpeg"))
+    ),
+    htmltools::a(
+        href = "mailto:dnegrey@gmail.com",
+        "dnegrey@gmail.com"
+    )
+)`

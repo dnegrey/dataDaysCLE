@@ -1,0 +1,50 @@
+.packages-ggplot2 .note li {
+    color: #000000;
+}
+
+#packages-ggplot2-left {
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+#packages-ggplot2-left-ggplot {
+    width: 96%;
+    height: 96%;
+    margin: 2% 2% 2% 2%;
+}
+
+#packages-ggplot2-left-ggplot img {
+    max-width: 100%;
+}
+
+#packages-ggplot2-right {
+    width: 48%;
+    height: 500px;
+    float: right;
+}
+
+.packages-ggplot2-em {
+    color: #FFA500;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#packages-ggplot2-right pre {
+    margin-top: 45px;
+}
+
+#packages-ggplot2-logo {
+    width: 40%;
+    height: 50px;
+    background-color: #FFFFFF;
+    font-family: Verdana, Tahoma, sans-serif;
+    border-bottom: none;
+    color: #000000;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+#packages-ggplot2-right * {
+    margin-bottom: 45px;
+}

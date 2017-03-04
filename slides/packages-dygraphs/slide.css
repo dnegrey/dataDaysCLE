@@ -1,0 +1,56 @@
+.packages-dygraphs .note li {
+    color: #000000;
+}
+
+#packages-dygraphs-left {
+    width: 60%;
+    height: 500px;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+#packages-dygraphs-left-dygraph {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 96%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    overflow: hidden;
+}
+
+#packages-dygraphs-left * {
+    max-width: 100%;
+}
+
+#packages-dygraphs-right {
+    width: 38%;
+    height: 500px;
+    float: right;
+}
+
+.packages-dygraphs-em {
+    color: #FFA500;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+#packages-dygraphs-right pre {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+#packages-dygraphs-logo {
+    width: 40%;
+    height: 50px;
+    background-color: #FFFFFF;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-bottom: none;
+    color: #000000;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+#packages-dygraphs-right p:nth-last-child(1) {
+    margin-top: 45px;
+}

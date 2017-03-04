@@ -1,0 +1,5 @@
+## Data Days {.data-days}
+
+`r htmltools::includeCSS("./slide.css")`
+
+`r htmltools::img(src = knitr::image_uri("../../img/data-days.jpg"))`

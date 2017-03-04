@@ -1,0 +1,74 @@
+.packages-dplyr .note li {
+    color: #000000;
+}
+
+#packages-dplyr-left {
+    float: left;
+    width: 45%;
+    height: 500px;
+    position: relative;
+}
+
+#packages-dplyr-left-1 {
+    width: 100px;
+    height: 150px;
+    z-index: 3;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translateX(-100%) translateY(-100%);
+}
+
+#packages-dplyr-left-1-table {
+    max-width: 100%;
+    opacity: 1.00;
+}
+
+#packages-dplyr-left-2 {
+    width: 250px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translateX(-100%) translateY(-100%);
+}
+
+#packages-dplyr-left-2-table {
+    max-width: 100%;
+    opacity: 0.20;
+}
+
+#packages-dplyr-left-3 {
+    width: 400px;
+    height: 450px;
+    z-index: 1;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translateX(-100%) translateY(-100%);
+}
+
+#packages-dplyr-left-3-table {
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    opacity: 0.05;
+}
+
+#packages-dplyr-right {
+    float: right;
+    width: 50%;
+    height: 500px;
+}
+
+#packages-dplyr-right pre:nth-child(1) {
+    margin-top: 25px;
+}
+
+.packages-dplyr-em {
+    color: #FFA500;
+    font-weight: bold;
+    font-size: 20pt;
+    padding-left: 40px;
+}

@@ -1,0 +1,32 @@
+## Essential Packages: rmarkdown {.packages-rmarkdown}
+
+`r htmltools::includeCSS("./slide.css")`
+
+`r htmltools::div(
+    id = "packages-rmarkdown-left",
+    htmltools::div(
+        id = "packages-rmarkdown-left-rmd",
+        htmltools::img(
+            src = knitr::image_uri("../../img/rmarkdown.png")
+        )
+    )
+)`
+
+<div id = "packages-rmarkdown-right">
+<p class = "packages-rmarkdown-em">Dynamic Documents, Presentations and Reports</p>
+<ul id = "packages-rmarkdown-right-list">
+<li>Combine markdown with R code/output</li>
+<li>Fully reproducible output</li>
+<li>Many output formats (HTML, PDF, etc...)</li>
+</ul>
+
+<a href="http://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf">Reference Guide</a>
+
+<a href="http://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">Cheat Sheet</a>
+
+<a href="https://github.com/rstudio/rmarkdown">https://github.com/rstudio/rmarkdown</a>
+
+<a id = "packages-rmarkdown-logo" href="http://rmarkdown.rstudio.com/">R Markdown</a>
+
+</div>
+

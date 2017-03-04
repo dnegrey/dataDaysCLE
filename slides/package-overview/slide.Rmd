@@ -1,0 +1,27 @@
+## Package Overview {.package-overview}
+
+`r htmltools::includeCSS("./slide.css")`
+
+<div id = "package-overview-left">
+`r htmltools::img(
+    src = knitr::image_uri("../../img/package-R.png")
+)`
+</div>
+
+<div id = "package-overview-right">
+<p class = "package-overview-em">Fundamental unit of reproducible R code</p>
+<div class = "build">
+<div>
+<p>Includes:</p>
+<ul>
+<li>R functions</li>
+<li>Documentation</li>
+<li>Sample data</li>
+</ul>
+</div>
+<p>Standards for creating</p>
+<p>May depend on other packages</p>
+<p>Typically domain specific</p>
+</div>
+</div>
+

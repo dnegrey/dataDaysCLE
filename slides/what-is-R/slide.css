@@ -1,0 +1,23 @@
+.what-is-R .note li {
+    color: #000000;
+}
+
+.what-is-R img {
+    position: absolute;
+    width: 600px;
+    height: 465px;
+    opacity: 0.25;
+    margin: 0 0 0 15%;
+}
+
+.what-is-R div {
+    position: absolute;
+    max-width: 90%;
+    margin: 30px 7% 10px 3%;
+}
+
+.what-is-R p {
+    font-size: 24pt;
+    font-style: normal;
+    color: #FFFFFF;
+}

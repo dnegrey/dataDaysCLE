@@ -1,0 +1,53 @@
+.packages-DT .note li {
+    color: #000000;
+}
+
+#packages-DT-left {
+    width: 630px;
+    height: 500px;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+#packages-DT-left-datatable {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 96%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#packages-DT-left-datatable .datatables * {
+    font-size: 10pt;
+}
+
+#packages-DT-right {
+    width: 33%;
+    height: 500px;
+    float: right;
+}
+
+.packages-DT-em {
+    color: #FFA500;
+    font-weight: bold;
+}
+
+#packages-DT-right pre {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+#packages-DT-logo {
+    width: 100%;
+    height: 50px;
+    margin-top: 45px;
+}
+
+#packages-DT-logo a {
+    border-bottom: none;
+}
+
+#packages-DT-logo img {
+    max-height: 100%;
+}
