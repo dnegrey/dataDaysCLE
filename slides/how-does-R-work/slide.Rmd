@@ -1,0 +1,35 @@
+## How does R work? {.how-does-R-work}
+
+`r htmltools::includeCSS("./slide.css")`
+
+`r htmltools::div(
+    htmltools::div(
+        id = "how-does-R-work-left",
+        class = "build",
+        htmltools::img(
+            id = "how-does-R-work-screen",
+            src = knitr::image_uri("../../img/screen-R-use.gif"),
+            alt = "Basic Usage"
+        )
+    ),
+    htmltools::div(
+        id = "how-does-R-work-right",
+        htmltools::div(
+            id = "how-does-R-work-right-main",
+            class = "build",
+            htmltools::div(
+                htmltools::includeHTML("./slide-text.html"),
+                htmltools::img(
+                    id = "how-does-R-work-hadley",
+                    src = knitr::image_uri("../../img/hadley.jpg"),
+                    alt = "Hadley Wickham"
+                ),
+                htmltools::a(
+                    id = "how-does-R-work-link",
+                    href = "https://github.com/hadley",
+                    "https://github.com/hadley"
+                )
+            )
+        )
+    )
+)`

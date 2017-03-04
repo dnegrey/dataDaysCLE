@@ -1,0 +1,19 @@
+## What is R? {.what-is-R}
+
+`r htmltools::includeCSS("./slide.css")`
+
+`r htmltools::img(src = knitr::image_uri("../../img/R-logo.png"))`
+
+<div>
+  <p>An 
+    <span class="default-gold" style="font-size: 32pt;">OPEN-SOURCE </span>
+    <span>programming </span>
+    <span class="default-gold" style="font-size: 32pt;">LANGUAGE </span>
+    <span>and free software </span>
+    <span class="default-gold" style="font-size: 32pt;">ENVIRONMENT </span>
+    <span>for </span>
+    <span class="default-gold" style="font-size: 32pt;">STATISTICAL COMPUTING </span>
+    <span>and </span>
+    <span class="default-gold" style="font-size: 32pt;">GRAPHICS</span>
+  </p>
+</div>

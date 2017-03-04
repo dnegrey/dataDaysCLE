@@ -1,0 +1,31 @@
+.functional-approach .note li {
+    color: #000000;
+}
+
+#functional-approach-subtitle {
+    font-size: 24pt;
+}
+
+#functional-approach-subtitle span {
+    color: #2A7CDF;
+    font-weight: bold;
+}
+
+#functional-approach-quote,
+#functional-approach-quote li {
+    font-style: italic;
+    color: #FFA500;
+}
+
+#functional-approach-quote p {
+    font-style: normal;
+    font-weight: bold;
+    padding-left: 20px;
+    color: #FFA500;
+}
+
+#functional-approach-code-chunk .prettyprint,
+#functional-approach-code-chunk pre {
+    font-weight: bold;
+    font-size: 12pt;
+}

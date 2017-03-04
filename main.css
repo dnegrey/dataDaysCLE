@@ -1,0 +1,21 @@
+.next article .build {
+    display: none;
+}
+pre {
+    background-color: #99B1BC;
+    border-color: #99B1BC;
+}
+.default-gold,
+.strong-gold {
+    color: #FFA500;
+}
+.strong-gold {
+    font-weight: bold;
+}
+.default-blue,
+.strong-blue {
+    color: #1A6ECC;
+}
+.strong-blue {
+    font-weight: bold;
+}

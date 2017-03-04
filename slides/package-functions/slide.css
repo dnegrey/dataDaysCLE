@@ -1,0 +1,50 @@
+.package-functions .note li {
+    color: #000000;
+}
+
+#package-functions-left {
+    width: 55%;
+    height: 400px;
+    float: left;
+}
+
+.package-functions-emy {
+    color: #FFA500;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.package-functions-emb {
+    color: #2A7CDF;
+    font-weight: bold;
+}
+
+#package-functions-right {
+    width: 43%;
+    height: 500px;
+    float: right;
+}
+
+#package-functions-error {
+    color: #515151;
+}
+
+#package-functions-right img {
+    max-width: 100%;
+}
+
+#package-functions-left-bottom {
+    width: 55%;
+    height: 100px;
+    float: left;
+}
+
+.package-functions-left-dblcolon {
+    font-size: 16pt;
+    font-style: italic;
+}
+
+#package-functions-left-dblcolon {
+    font-size: 16pt;
+    font-style: normal;
+}

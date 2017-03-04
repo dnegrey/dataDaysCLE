@@ -1,0 +1,7 @@
+## Download R at [https://cran.r-project.org/](https://cran.r-project.org/) {.download-R}
+
+`r htmltools::includeCSS("./slide.css")`
+
+<div id = "download-R-main">
+<iframe src="https://cran.r-project.org/"></iframe>
+</div>

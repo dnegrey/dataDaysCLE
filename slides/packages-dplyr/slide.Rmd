@@ -1,0 +1,62 @@
+## Essential Packages: dplyr {.packages-dplyr}
+
+`r htmltools::includeCSS("./slide.css")`
+
+`r htmltools::div(
+    id = "packages-dplyr-left",
+    htmltools::p(
+        class = "packages-dplyr-em",
+        "Grammar for Data Manipulation"
+    ),
+    htmltools::div(
+        id = "packages-dplyr-left-1",
+        htmltools::img(
+            id = "packages-dplyr-left-1-table",
+            src = knitr::image_uri("../../img/data-table.png")
+        )
+    ),
+    htmltools::div(
+        id = "packages-dplyr-left-2",
+        htmltools::img(
+            id = "packages-dplyr-left-2-table",
+            src = knitr::image_uri("../../img/data-table.png")
+        )
+    ),
+    htmltools::div(
+        id = "packages-dplyr-left-3",
+        htmltools::img(
+            id = "packages-dplyr-left-3-table",
+            src = knitr::image_uri("../../img/data-table.png")
+        )
+    )
+)`
+
+<div id = "packages-dplyr-right">
+```{r, comment=NA, eval=FALSE}
+library(dplyr)
+mtcars %>% 
+    filter(mpg >= 15) %>% 
+    group_by(cyl) %>% 
+    summarise(numCARS = n(),
+              avgMPG = mean(mpg),
+              avgHP = mean(hp),
+              medWT = median(wt),
+              pctMANUAL = mean(am)) %>% 
+    arrange(cyl)
+```
+```{r, echo=FALSE}
+suppressPackageStartupMessages(library(dplyr))
+```
+```{r, comment=NA, echo=FALSE}
+mtcars %>% 
+    filter(mpg >= 15) %>% 
+    group_by(cyl) %>% 
+    summarise(numCARS = n(),
+              avgMPG = mean(mpg),
+              avgHP = mean(hp),
+              medWT = median(wt),
+              pctMANUAL = mean(am)) %>% 
+    arrange(cyl)
+```
+<a href="https://github.com/hadley/dplyr">https://github.com/hadley/dplyr</a>
+</div>

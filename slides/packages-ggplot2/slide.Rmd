@@ -1,0 +1,29 @@
+## Essential Packages: ggplot2 {.packages-ggplot2}
+
+`r htmltools::includeCSS("./slide.css")`
+
+<div id = "packages-ggplot2-left">
+<div id = "packages-ggplot2-left-ggplot">
+```{r, echo=FALSE, fig.width=5, fig.height=5}
+library(ggplot2)
+ggplot(data = mtcars, aes(x = hp, y = mpg)) + 
+    geom_point() + 
+    stat_smooth(method = lm)
+```
+</div>
+</div>
+
+<div id = "packages-ggplot2-right">
+<p class = "packages-ggplot2-em">Publication Quality Graphics</p>
+```{r, eval=FALSE}
+library(ggplot2)
+ggplot(data = mtcars, aes(x = hp, y = mpg)) + 
+    geom_point() + 
+    stat_smooth(method = lm)
+```
+
+<a href="https://github.com/hadley/ggplot2">https://github.com/hadley/ggplot2</a>
+
+<a id = "packages-ggplot2-logo" href="http://ggplot2.org/">ggplot2</a>
+
+</div>

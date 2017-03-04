@@ -1,0 +1,33 @@
+## Help! {.help}
+
+`r htmltools::includeCSS("./slide.css")`
+
+<div id = "help-left" class = "build">
+
+<div>
+<p class = "help-left-text">Most R functions come packaged with robust documentation, which you can access by using the <code>help()</code> function:</p>
+
+```{r, eval=FALSE}
+# pull up help page for the mean function
+help(mean)
+```
+</div>
+
+<div>
+<p class = "help-left-text">Also find terrific community help online:</p>
+
+<a class = "help-left-link" href="https://www.google.com">Google</a>
+
+<a class = "help-left-link" href="https://www.github.com">GitHub</a>
+
+<a class = "help-left-link" href="https://www.stackoverflow.com">StackOverflow</a>
+
+</div>
+</div>
+
+<div id = "help-right" class = "build">
+`r htmltools::img(
+    src = knitr::image_uri("../../img/help-rstudio.gif")
+)`
+</div>
+

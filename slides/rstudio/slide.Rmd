@@ -1,0 +1,11 @@
+## RStudio [https://www.rstudio.com/](https://www.rstudio.com/) {.rstudio}
+
+`r htmltools::includeCSS("./slide.css")`
+
+<div id = "rstudio-main">
+<iframe src="https://www.rstudio.com/"></iframe>
+</div>
+
+## The RStudio IDE {.rstudio-IDE}
+
+`r htmltools::img(src = knitr::image_uri("../../img/screen-RStudio.png"))`

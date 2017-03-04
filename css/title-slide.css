@@ -1,0 +1,47 @@
+/*** font ***/
+/* all */
+slides > slide.title-slide h1,
+slides > slide.title-slide h2,
+slides > slide.title-slide h3,
+#pdinfo {
+    text-transform: none;
+    font-family: arial, helvetica, sans-serif;
+    color: #FFFFFF;
+}
+/* main title */
+slides > slide.title-slide h1 {
+    font-size: 44pt;
+    font-weight: bold;
+}
+/* subtitle */
+slides > slide.title-slide h2 {
+    font-size: 28pt;
+    font-style: italic;
+}
+/* date */
+slides > slide.title-slide h3 {
+    font-size: 18pt;
+}
+/* main title, subtitle and date */
+slides > slide.title-slide hgroup {
+    text-align: right;
+}
+/* title info */
+#title-info {
+    align: left;
+    font-size: 16pt;
+    margin-top: 20px;
+}
+
+/*** images ***/
+/* title logo */
+.logo-container {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+.logo-container #title-logo {
+    all: inherit;
+    align: left;
+    margin-top: 100px;
+}

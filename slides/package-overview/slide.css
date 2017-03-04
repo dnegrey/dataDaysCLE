@@ -1,0 +1,35 @@
+.package-overview .note li {
+    color: #000000;
+}
+
+#package-overview-left {
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+
+#package-overview-left img {
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+#package-overview-right {
+    width: 53%;
+    height: 500px;
+    float: right;
+}
+
+.package-overview-em {
+    color: #FFA500;
+    font-weight: bold;
+}
+
+#package-overview-right li {
+    color: #2A7CDF;
+    font-weight: bold;
+}
+
+#package-overview-right ul {
+    padding-left: 20px;
+}
+
