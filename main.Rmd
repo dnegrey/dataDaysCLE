@@ -42,3 +42,7 @@ output:
 ```{r child="./slides/rstudio/slide.Rmd"}
 ```
 
+
+
+```{r child="./slides/thank-you/slide.Rmd"}
+```

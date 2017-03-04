@@ -1,0 +1,22 @@
+.thank-you .note li {
+    color: #000000;
+}
+
+#thank-you-main {
+    height: 300px;
+    margin: 100px 23% 100px 21%;
+    text-align: center;
+}
+
+#thank-you-main img {
+    width: 50%;
+    max-width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+#thank-you-me {
+    border-bottom: none;
+}
