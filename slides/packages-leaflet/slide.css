@@ -1,0 +1,39 @@
+.packages-leaflet .note li {
+    color: #000000;
+}
+
+#packages-leaflet-left {
+    width: 48%;
+    height: 500px;
+    overflow: hidden;
+    float: left;
+    margin-top: 25px;
+}
+
+#packages-leaflet-right {
+    width: 50%;
+    height: 500px;
+    float: right;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.packages-leaflet-em {
+    color: #FFA500;
+    font-weight: bold;
+}
+
+#packages-leaflet-logo {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 35px;
+}
+
+#packages-leaflet-logo a {
+    border-bottom: none;
+}
+
+#packages-leaflet-logo img {
+    max-height: 100%;
+}
+

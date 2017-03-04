@@ -1,0 +1,55 @@
+.packages-rmarkdown .note li {
+    color: #000000;
+}
+
+#packages-rmarkdown-left {
+    width: 48%;
+    height: 500px;
+    float: left;
+}
+
+#packages-rmarkdown-left-rmd {
+    width: 96%;
+    height: 96%;
+    margin: 2% 2% 2% 2%;
+}
+
+#packages-rmarkdown-left-rmd img {
+    max-width: 100%;
+}
+
+#packages-rmarkdown-right {
+    width: 50%;
+    height: 500px;
+    float: right;
+}
+
+.packages-rmarkdown-em {
+    color: #FFA500;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+#packages-rmarkdown-right ul {
+    margin-bottom: 45px;
+}
+
+#packages-rmarkdown-right li {
+    font-size: 16pt;
+    font-style: italic;
+}
+
+#packages-rmarkdown-logo {
+    width: 40%;
+    height: 50px;
+    background-color: #75AADB;
+    font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-bottom: none;
+    color: #FFFFFF;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+#packages-rmarkdown-right a {
+    word-wrap: break-word;
+}

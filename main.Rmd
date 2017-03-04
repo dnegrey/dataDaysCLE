@@ -42,6 +42,17 @@ output:
 ```{r child="./slides/rstudio/slide.Rmd"}
 ```
 
+```{r child="./slides/packages-dplyr/slide.Rmd"}
+```
+
+```{r child="./slides/packages-ggplot2/slide.Rmd"}
+```
+
+```{r child="./slides/packages-rmarkdown/slide.Rmd"}
+```
+
+```{r child="./slides/packages-leaflet/slide.Rmd"}
+```
 
 
 ```{r child="./slides/thank-you/slide.Rmd"}
