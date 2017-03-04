@@ -1,0 +1,41 @@
+## Essential Packages: XLConnect {.packages-XLConnect}
+
+`r htmltools::includeCSS("./slide.css")`
+
+<div id = "packages-XLConnect-left">
+<div id = "packages-XLConnect-left-xlc">
+`r htmltools::img(
+    src = knitr::image_uri("../../img/XLConnect.png")
+)`
+<p>Book1.xlsx</p>
+`r htmltools::img(
+    src = knitr::image_uri("../../img/excel-book1.png")
+)`
+</div>
+</div>
+
+<div id = "packages-XLConnect-right">
+<p class = "packages-XLConnect-em">Excel Connector for R</p>
+```{r, eval=FALSE}
+library(XLConnect)
+x <- readWorksheetFromFile(file = "../xlsx/Book1.xlsx", 
+                           sheet = "Sheet1", 
+                           startRow = 2, 
+                           startCol = 2, 
+                           endRow = 3, 
+                           endCol = 3, 
+                           header = FALSE)
+y <- x + 4
+wb <- loadWorkbook("../xlsx/Book1.xlsx")
+setStyleAction(object = wb, 
+               type = XLC$"STYLE_ACTION.NONE")
+writeWorksheet(object = wb,
+               data = y,
+               sheet = "Sheet1",
+               startRow = 5,
+               startCol = 4,
+               header = FALSE)
+saveWorkbook(wb)
+```
+<a href="https://cran.r-project.org/web/packages/XLConnect/index.html">XLConnect Documentation</a>
+</div>

@@ -1,0 +1,46 @@
+## Essential Packages: DT {.packages-DT}
+
+`r htmltools::includeCSS("./slide.css")`
+
+<div id = "packages-DT-left">
+<div id = "packages-DT-left-datatable">
+```{r, echo=FALSE}
+library(DT)
+datatable(iris,
+          extensions = "Scroller",
+          options = list(
+              scrollY = 320,
+              scrollCollapse = TRUE
+          ),
+          rownames = FALSE)
+detach("package:DT", unload=TRUE)
+```
+</div>
+</div>
+
+<div id = "packages-DT-right">
+<p class = "packages-DT-em">Interactive HTML Tables</p>
+
+```{r, eval=FALSE}
+library(DT)
+datatable(iris,
+          extensions = "Scroller",
+          options = list(
+              scrollY = 320,
+              scrollCollapse = TRUE
+          ),
+          rownames = FALSE)
+```
+
+<a href="http://rstudio.github.io/DT/">http://rstudio.github.io/DT/</a>
+
+<div id = "packages-DT-logo">
+<a href="https://www.datatables.net/">
+`r htmltools::img(
+    src = knitr::image_uri("../../img/logo-DT.png")
+)`
+</a>
+</div>
+
+</div>
+

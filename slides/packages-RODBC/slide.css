@@ -1,0 +1,31 @@
+.packages-RODBC .note li {
+    color: #000000;
+}
+
+#packages-RODBC-left {
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+#packages-RODBC-left-database {
+    width: 96%;
+    height: 96%;
+    margin: 2% 2% 2% 2%;
+}
+
+#packages-RODBC-left-database img {
+    max-width: 100%;
+    margin-top: 10%;
+}
+
+#packages-RODBC-right {
+    width: 46%;
+    height: 500px;
+    float: right;
+}
+
+.packages-RODBC-em {
+    color: #FFA500;
+    font-weight: bold;
+}

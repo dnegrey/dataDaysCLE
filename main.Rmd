@@ -54,6 +54,17 @@ output:
 ```{r child="./slides/packages-leaflet/slide.Rmd"}
 ```
 
+```{r child="./slides/packages-DT/slide.Rmd"}
+```
+
+```{r child="./slides/packages-dygraphs/slide.Rmd"}
+```
+
+```{r child="./slides/packages-RODBC/slide.Rmd"}
+```
+
+```{r child="./slides/packages-XLConnect/slide.Rmd"}
+```
 
 ```{r child="./slides/thank-you/slide.Rmd"}
 ```

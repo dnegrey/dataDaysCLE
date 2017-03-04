@@ -1,0 +1,44 @@
+.packages-XLConnect .note li {
+    color: #000000;
+}
+
+#packages-XLConnect-left {
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+#packages-XLConnect-left-xlc {
+    width: 96%;
+    height: 96%;
+    margin: 2% 2% 2% 2%;
+}
+
+#packages-XLConnect-left-xlc img {
+    width: 90%;
+    max-width: 100%;
+}
+
+#packages-XLConnect-left-xlc p {
+    color: #77BF30;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#packages-XLConnect-right {
+    width: 48%;
+    height: 500px;
+    float: right;
+}
+
+.packages-XLConnect-em {
+    color: #FFA500;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+#packages-XLConnect-right pre {
+    margin-top: 35px;
+}

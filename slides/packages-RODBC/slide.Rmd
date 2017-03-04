@@ -1,0 +1,36 @@
+## Essential Packages: RODBC {.packages-RODBC}
+
+`r htmltools::includeCSS("./slide.css")`
+
+<div id = "packages-RODBC-left">
+<div id = "packages-RODBC-left-database">
+`r htmltools::img(
+    src = knitr::image_uri("../../img/RODBC.png")
+)`
+</div>
+</div>
+
+<div id = "packages-RODBC-right">
+<p class = "packages-RODBC-em">ODBC Database Access</p>
+```{r, echo=FALSE}
+x <- data.frame(
+    id = 1:10,
+    random1 = runif(10),
+    random2 = rnorm(10)
+)
+```
+```{r, eval=FALSE}
+library(RODBC)
+ch <- odbcConnect("Adhoc")
+x <- sqlQuery(ch, "select * from dbo.MyTable;")
+close(ch)
+head(x)
+```
+```{r, echo=FALSE, comment=NA}
+head(x)
+rm(x)
+```
+<a href="https://cran.r-project.org/web/packages/RODBC/index.html">RODBC Documentation</a>
+
+<a href="http://www.unixodbc.org/">http://www.unixodbc.org/</a>
+</div>
